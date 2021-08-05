@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>gshop</title>
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <!-- iconfont图标字体库 -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2693178_w61xxs823kn.css">
+    <!-- 引入fastclick库，解决单击300ms延迟问题 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
+    <script>
+      if('addEventListener' in document){
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body);
+        }, false);
+      }
+      if(!window.Promise){
+        document.writeln('<script src="https://cdn.bootcdn.net/ajax/libs/es6-promise/3.2.2/es6-promise.js"'+'>'+'<'+'/'+'script>');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- <i class="iconfont icon-remove"></i> -->
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
